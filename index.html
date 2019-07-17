@@ -1,2 +1,161 @@
+<!DOCTYPE html>
 <html>
+	<head>
+		<title>Horse Racing</title>
+		<link rel="stylesheet" href="game.css" />
+		<script src="game.js"></script>
+	</head>
+
+	<body>
+
+
+	<!-- Self added bit Audio Controls and -->
+
+		<div id = "volumeControls">
+			<p id = "plus" class = "music"><img src = "Resources/add.svg" alt = " + "></p>
+			<p id = "playPause" class = "play music"><img src = "Resources/pause.svg" alt = "Pause"></p>
+			<p id = "volumeLevel" class = "music"><img src = "Resources/midvolume.svg" alt = "Volume Level"></p>
+			<p id = "minus" class = "music"><img src = "Resources/minus.svg" alt = " - "> </p>
+		</div>
+	<!-- Self added bit Countdown Timer -->
+		<div id = "countDown">
+
+		</div>
+
+	<!-- Self added bit modal window -->
+		<div id = "modal">
+			<span id = "close"></span>
+			<div id = "modalLeft"><img src = "Resources/modalLeft.png" style = "height: 100%;"></div>
+			<div id = "modalRight">
+				<br>
+				<h1>JavaScript Horse Racing<br> Betting Game</h1>
+				<br>
+				<h3>- By Diwas Lamsal</h3>
+				<br><br><br>
+				<div id = "playButtonHolder"><button id = "playButton">Start Game</button></div>
+				<br><br><br><br>
+				<h3>Click the Start Game button to start playing!!</h3>
+
+			</div>
+			
+		</div>
+
+		<div id="horse1" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div id="horse2" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div id="horse3" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div id="horse4" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="track">
+			<div id="startline">
+
+			</div>
+			<div class="inner">
+				<div id="start">
+					Start Race
+				</div>
+
+				<div id="bet">
+					<p>You currently have <span id="funds">100</span></p>
+					<label>Bet Amount  (£)</label>
+					<input id="amount"/>
+					<!-- Added bit of code -->
+					<br>					
+					<span id = "validationCheck" style="font-size: 15px;"></span>
+					<br>
+					<!-- Added bit of code -->
+
+					<label>Bet on horse:</label>
+					<select id="bethorse">
+						<option value="horse1">White</option>
+						<option value="horse2">Blue</option>
+						<option value="horse3">Green</option>
+						<option value="horse4">Brown</option>
+					</select>
+
+					<!-- Added bit of code -->
+					<br><br>
+					<label>Laps:</label>
+					<input type="number" id="lapNumber" value=1>
+					<!-- Added bit of code -->
+
+				</div>
+				
+				<img src="images/tree.png" class="tree" />
+				<img src="images/tree.png" class="tree" />
+				<img src="images/tree.png" class="tree" />
+				
+				<div id = "adDisplay"><div style="background: black; width: 100%; height: 100%; overflow: hidden;" id = "adDisplayInner"><img src = "Resources/ad.gif" style="height: 100%; width: 100%;"></div></div>
+
+			<table id="results">
+				<thead>
+				<tr>
+					<th>Results</th>
+					<th></th>
+				</tr>
+				</thead>
+				<tr>
+					<td>1st</td>
+					<td class="horse1"></td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td class="horse2"></td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td class="horse3"></td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td class="horse4"></td>
+				</tr>
+			</table>
+</div>
+
+		</div>
+		<div id = "lapDisplay"></div>
+
+
+
+	
+	</body>
 </html>
