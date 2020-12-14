@@ -1,7 +1,7 @@
-### Horse Racing Betting Game using JavaScript
+## Horse Racing Betting Game using JavaScript
 **Web Development Term II, University of Northampton**
 
-[Documentation](https://github.com/DiwasLamsal/JavaScriptHorse/raw/master/diwas-lamsal-18406547-technical-report.pdf) | [Live Demo](https://diwaslamsal.github.io/JavaScriptHorse/main/) | [Source Code](https://github.com/DiwasLamsal/JavaScriptHorse/tree/master/main)
+<a href = "https://github.com/DiwasLamsal/JavaScriptHorse/raw/master/diwas-lamsal-18406547-technical-report.pdf" target="_blank"> Documentation </a> | <a href = "https://diwaslamsal.github.io/JavaScriptHorse/main/" target="_blank"> Live Demo </a> | <a href = "https://github.com/DiwasLamsal/JavaScriptHorse/tree/master/main" target="_blank"> Source Code </a>
 
 <hr>
 
