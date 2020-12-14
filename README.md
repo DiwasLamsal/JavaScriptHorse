@@ -1,6 +1,3 @@
----
-name: hello world
----
 
 ### Horse Racing Betting Game using JavaScript 
 #### Web Development Term II, University of Northampton
