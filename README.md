@@ -1,3 +1,7 @@
+---
+title-heading: false
+---
+
 ### Horse Racing Betting Game using JavaScript 
 #### Web Development Term II, University of Northampton
 
