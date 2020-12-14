@@ -1,5 +1,5 @@
 ---
-title-heading: false
+name: hello world
 ---
 
 ### Horse Racing Betting Game using JavaScript 
